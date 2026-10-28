@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{94FD215B-2941-4092-9B15-DDC86D6DF0C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailCraftAI", "src\MailCraftAI\MailCraftAI.csproj", "{76B4ABFD-C705-4629-A422-653C98EDD948}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1991CB49-28BF-4F8C-9F18-9A755A76BD42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailCraftAI.Tests", "tests\MailCraftAI.Tests\MailCraftAI.Tests.csproj", "{EF73D6CC-BA1C-4CA8-875D-980F17C71D1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76B4ABFD-C705-4629-A422-653C98EDD948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B4ABFD-C705-4629-A422-653C98EDD948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B4ABFD-C705-4629-A422-653C98EDD948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B4ABFD-C705-4629-A422-653C98EDD948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF73D6CC-BA1C-4CA8-875D-980F17C71D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF73D6CC-BA1C-4CA8-875D-980F17C71D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF73D6CC-BA1C-4CA8-875D-980F17C71D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF73D6CC-BA1C-4CA8-875D-980F17C71D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76B4ABFD-C705-4629-A422-653C98EDD948} = {94FD215B-2941-4092-9B15-DDC86D6DF0C6}
+		{EF73D6CC-BA1C-4CA8-875D-980F17C71D1A} = {1991CB49-28BF-4F8C-9F18-9A755A76BD42}
+	EndGlobalSection
+EndGlobal
